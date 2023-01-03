@@ -16,12 +16,14 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
+    - setuptools >=41
+    - babel
   run:
-    - python >=3.6
+    - python >=3.7
     - iso8601
-    - setuptools >=11.3
+    - setuptools >=41
     - translationstring
 
 test:
